@@ -296,7 +296,12 @@ form > button {
     margin: 1rem 0;
     border: none;
     border-radius: 0.2rem;
-    background-color: #ff4343;
+    background: rgb(236, 33, 176);
+    background: linear-gradient(
+        0deg,
+        rgba(236, 33, 176, 1) 0%,
+        rgba(253, 45, 45, 1) 100%
+    );
     color: #fff;
     cursor: pointer;
 }
