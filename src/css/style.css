@@ -267,7 +267,7 @@ p {
     align-items: flex-start;
     justify-items: flex-start;
 }
-.about_info p {
+/* .about_info p {
     background: rgb(236, 33, 176);
     background: linear-gradient(
         0deg,
@@ -276,7 +276,7 @@ p {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 .headings {
     display: grid;
     align-items: center;
