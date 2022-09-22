@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/images/logo01.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/d05a743bee.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100&display=swap"
+            rel="stylesheet"
+        />
+        <title>Mangata & Gallo</title>
+    </head>
+    <body>
+        <div class="bg"></div>
+        <div id="app">
+            <header>
+                <div class="logo">
+                    <img src="./images/logo02.png" alt="logo" />
+                </div>
+                <button id="theme_btn"></button>
+            </header>
+            <nav>
+                <ul class="nav_list">
+                    <li>
+                        <a href="#home"> Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#products">Products</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <section id="home">
+                    <div class="carousel-wrapper">
+                        <div class="carousel">
+                            <img
+                                src="./images/c01.jpg"
+                                alt="diamond"
+                                class="carousel__img initial active"
+                            />
+                            <img
+                                src="./images/c02.jpg"
+                                alt="diamond"
+                                class="carousel__img"
+                            />
+                            <img
+                                src="./images/c03.jpg"
+                                alt="diamond"
+                                class="carousel__img"
+                            />
+                            <button class="btn carousel__btn__prev">
+                                <img
+                                    class="icon"
+                                    src="./images/arrow_back.svg"
+                                    alt="arrow backward"
+                                />
+                            </button>
+                            <button class="btn carousel__btn__next">
+                                <img
+                                    class="icon"
+                                    src="./images//arrow_forward.svg"
+                                    alt="arrow forward"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                    <div class="home_info">
+                        <article class="card">card</article>
+                        <article class="card">card</article>
+                        <article class="card">card</article>
+                    </div>
+                </section>
+                <section id="about">
+                    <div class="headings">
+                        <h3>About Us</h3>
+                        <hr />
+                    </div>
+                    <div class="about_info">
+                        <p>
+                            Mangata and Gallo is a jewelry store that
+                            specializes in special occasions like engagements,
+                            weddings and anniversaries. The jewelry company
+                            primarily operates online and has a small storefront
+                            in Austin, Texas with an atelier attached for
+                            browsing. Mangata & Gallo's selection of jewelry is
+                            known for its high-quality and classic look. The
+                            owner, an Austin local, is well known for her
+                            jewelry designs.
+                        </p>
+                        <p>
+                            Mariana is the owner and the lead designer of
+                            Mangata and Gallo. After graduating from design
+                            school with a specialization in diamond cutting and
+                            metal smithing, Mariana opened a store in her
+                            hometown, Austin and started to grow her business
+                            online. Mariana has always managed every aspect of
+                            the business, from jewelry design to marketing to
+                            e-commerce. However, she recently hired several
+                            artisans to help craft her designs and a young
+                            employee to help manage the company website and
+                            social media accounts.
+                        </p>
+                    </div>
+                </section>
+                <section id="products">
+                    <div class="headings">
+                        <h3>Products</h3>
+                        <hr />
+                    </div>
+                    <div class="products_list">
+                        <div class="card">1</div>
+                        <div class="card">2</div>
+                        <div class="card">3</div>
+                        <div class="card">4</div>
+                        <div class="card">5</div>
+                        <div class="card">6</div>
+                        <div class="card">7</div>
+                        <div class="card">8</div>
+                        <div class="card">9</div>
+                        <div class="card">10</div>
+                    </div>
+                </section>
+                <section id="contact">
+                    <div class="headings">
+                        <h3>Contact</h3>
+                        <hr />
+                    </div>
+                    <div class="contact_info">
+                        <h4>Send Us a message</h4>
+                        <form>
+                            <div class="form_item">
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" />
+                            </div>
+                            <div class="form_item">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" />
+                            </div>
+                            <div class="form_item">
+                                <label for="message">Message:</label>
+                                <textarea
+                                    type="text"
+                                    name="message"
+                                    placeholder="Type your message here..."
+                                >
+                                </textarea>
+                            </div>
+                            <button>Submit</button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer id="footer">
+                <div class="footer_logo">
+                    <img src="./images/logo01.png" alt="" />
+                </div>
+                <div>
+                    <p>&copy;Copyrights Reserved | Sam Azevedo</p>
+                </div>
+                <div class="social">
+                    <div class="social_info">
+                        <p>Find Us on Social Media</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <img src="./images/instagram.svg" alt="instagram" />
+                        </li>
+                        <li>
+                            <img src="./images/facebook.svg" alt="facebook" />
+                        </li>
+                        <li>
+                            <img src="./images/youtube.svg" alt="youtube" />
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+        <script type="module" src="./js/main.js"></script>
+    </body>
+</html>
