@@ -3,6 +3,8 @@ import '../css/style.css'
 const slides = document.querySelectorAll('.carousel__img')
 const btnPrev = document.querySelector('.carousel__btn__prev')
 const btnNext = document.querySelector('.carousel__btn__next')
+import logo04 from '../images/logo04.png'
+import logo02 from '../images/logo02.png'
 
 let activeSlide = 0
 let interval = setInterval(moveCarousel, 4000)
@@ -61,14 +63,14 @@ themeBtn.addEventListener('click', (e) => {
         html.classList.remove('dark')
         logo.classList.remove('dark')
         logo.innerHTML = ''
-        logo.innerHTML = `<img src="./images/logo02.png" alt="logo" />`
+        logo.innerHTML = `<img src="${logo02}" alt="logo" />`
         e.target.style.backgroundColor = '#000'
     } else {
         bg.classList.add('dark')
         html.classList.add('dark')
         logo.classList.add('dark')
         logo.innerHTML = ''
-        logo.innerHTML = `<img src="./images/logo04.png" alt="logo" />`
+        logo.innerHTML = `<img src="${logo04}" alt="logo" />`
 
         e.target.style.backgroundColor = '#fff'
     }
