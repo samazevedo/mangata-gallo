@@ -55,6 +55,9 @@ body {
     justify-items: center;
 }
 #theme_btn {
+    position: fixed;
+    right: 0;
+    top: 1rem;
     width: 0.5rem;
     height: 0.5rem;
     border: none;
@@ -71,10 +74,10 @@ body {
 header {
     position: absolute;
     display: grid;
-    grid-template-columns: 1.7fr 0.3fr;
     top: 0;
     left: 0;
     align-items: center;
+    justify-items: center;
     width: 100%;
     z-index: 100;
     overflow: hidden;
